@@ -107,14 +107,14 @@ class daktronics:
 		prog = re.compile('^([0-9 ]{2})(1ST|2ND|3RD|4TH)([0-9 ]{2})')
 		result = prog.match(payload)
 
-		#if(result != None):
+		if(result != None):
 				#seperate out different fields
 
 				#sync everything
 
-		#if (ballpos == to_go):
+		if (ballpos == to_go):
 			#sync distance ("Goal")
-		#else:
+		else:
 			#sync_disctance(to_go)
 
 
